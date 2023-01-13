@@ -18,7 +18,7 @@ Domoticz Python plugin which implements support for [Home-Assistant style MQTT d
 - Sonoff fulltopic should be reasonable, for example "tasmota/%topic%/%prefix%/"
 
 ### Instructions:
-- Clone this project into Domoticz 'plugins' folder
+- Clone this project into Domoticz domoticz/plugins or /usr/bin/plugins/ (OpenWRT) folder
 - Restart Domoticz
 - Create hardware of type "MQTT Discovery"
   - Set MQTT IP and port
